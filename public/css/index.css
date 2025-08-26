@@ -1,0 +1,58 @@
+#movieInputContainer
+{
+    background-color: aqua;
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin: auto;
+}
+
+#movieBillInputContainer
+{
+    background-color: aqua;
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.movieBillOutputContainer
+{
+    background-color: bisque;
+}
+
+.movieBillContainer
+{
+    background-color: aqua;
+    height: fit-content;
+    width: 100px;
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.movieImgOutputContainer
+{
+    background-color: aqua;
+    height: fit-content;
+    width: fit-content;
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.tittleContainer
+{
+    width: 100px;
+}
+
+.movieBillOutputpng
+{
+    height: 100px;
+    width: 70px;
+}

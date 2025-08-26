@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Laboratorio 3</title>
+        <link rel="stylesheet" href="../css/index.css">
+    </head>
+    <body>
+        
+
+        <div id="movieInputContainer">
+            <div id="movieBillInputContainer">
+                <label for="">introduzca la URL de la portada de la pelicula</label>
+                <input type="url" id="movieUrl" placeholder="URL">
+                <label for="">Introduzca el titulo de la pelicula</label>
+                <input type="text" id ="movieTittle" placeholder="titulo">
+                <label for="">Seleccione el genero de la pelicula</label>
+                <select id="movieGenre">
+                    <option value="Accion">Accion</option>
+                    <option value="Comedia">Comedia</option>
+                    <option value="Drama">Drama</option>
+                    <option value="Terror">Terror</option>
+                    <option value="Ciencia ficción">Ciencia ficción</option>
+                </select>
+                <label for="">Fecha de lanzamiento</label>
+                <input type="date" id="movieDate" required>
+                <button type="button" id="btnPostMovie">Publicar</button>
+            </div>
+        </div>
+        <div id="movieBillOutputContainer">
+            <div class="movieBillContainer">
+                <div class="movieImgOutputContainer">
+                    <img class="movieBillOutputpng" src="https://www.w3schools.com/html/img_girl.jpg" alt="">
+                </div>
+                <div class="movieTittleContainer">
+                    <p>Titulo: tetoko elhoyo</p>
+                </div>
+                <div class="movieGenreOutputContainer">
+                    <p>Genero: terro sepsual</p>
+                </div>
+                <div class="movieDateOutputContainer">
+                    <p>1 1 2025</p>
+                </div>
+            </div>
+        </div>
+
+        <script type="module" src="../js/index.js"></script>
+    </body>
+</html>

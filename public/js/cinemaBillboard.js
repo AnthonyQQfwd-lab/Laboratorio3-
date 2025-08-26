@@ -1,0 +1,1 @@
+import { getPeliculas, postPeliculas } from "../services/crud.js"
